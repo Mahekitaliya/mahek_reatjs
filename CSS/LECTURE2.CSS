@@ -1,0 +1,158 @@
+.colur{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(204, 164, 90);
+}
+.colur-1{
+    height:50px;
+    width:50px;
+    background-color: rgba(28, 36, 28, 0.8);
+}
+.colur-2{
+    height: 50px;
+    width: 50px;
+    background-color: #6f00ff;
+}
+.colur-3{
+    height: 50px;
+    width: 50px;
+    background-color: hsl(140, 100%, 50%);
+}
+.background{
+    height: 50px;
+    width: 50px;
+    /*background-color: rgba(48,189,57,0.8);*/
+    background-image: url(../HTML/OIP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.linear{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(rgb(17, 4, 4),rgb(104, 126, 61));
+}
+.diagonal{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to left,rgb(25, 0, 255),rgb(205, 195, 50));
+}
+.linary-rainbow{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to top,red,orange,yellow,green,blue,indigo,violet);
+}
+.radial-simple{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(red,orange,pink);
+}
+.radial-gradient{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(circle farthest-corner at right,red,blue);
+}
+.bullseys{
+    height: 200px;
+    width: 200px;
+    background:repeating-radial-gradient(red,red 15%,white 10%,white 20%);
+}
+.warning{
+    height: 200px;
+    width: 200px;
+    background: repeating-linear-gradient(0deg,yellowgreen,black);
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 10px solid yellowgreen;
+}
+.box-1{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 10px dotted yellowgreen;
+}
+.box-2{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 10px dashed yellowgreen;
+}
+.box-3{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 10px double yellowgreen;
+}
+.box-4{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 10px hidden yellowgreen;
+}
+.box-5{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 10px none yellowgreen;
+}
+.box-6{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 10px ridge yellowgreen;
+}
+.box-7{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 10px inset yellowgreen;
+}
+.box-8{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 10px outset yellowgreen;
+}
+.box-9{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 10px groove yellowgreen;
+}
+.radius{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    border: 10px solid yellowgreen;
+    border-radius: 100%;
+    border-radius: 10px 50px;
+    border-radius: 10px 50px 100px;
+    border-radius: 10px 50px 70px 100px;
+}
+.outline{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    border: 10px solid red;
+    outline:5px solid powderblue;
+    outline-offset: 10px;
+    margin:200px;
+}
+.opacity{
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+    opacity:0.8;
+    color: palevioletred;
+}
+button{
+    background-color: blueviolet;
+    border: dotted;
+    color: aqua;
+    border-radius: 10px;
+    font-weight: bold;
+}

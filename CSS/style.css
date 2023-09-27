@@ -1,0 +1,25 @@
+/*p{
+    background-color: blue;
+    color: brown;
+    border: 2px solid pink;
+}*/
+
+
+.mainbox{
+    color: burlywood;
+    background-color: blueviolet;
+    /*border: 5px solid pink;*/
+}
+.box1{
+    background-color: aqua;
+    
+    color: black;
+}
+.box2{
+    background-color: blue;
+    color: blueviolet;
+}
+/*.mainbox .box1 .box2{
+    background-color: brown;
+    color: blueviolet;
+}*/
