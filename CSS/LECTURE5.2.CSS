@@ -1,0 +1,280 @@
+.mainbox{
+    background-color: blueviolet;
+    position: absolute;
+    height: 600px;
+    width: 1300px;
+
+}
+.box-1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+}
+.box-2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    
+    background-color:red;
+
+
+}
+.box-3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    top: 0px;
+    right: 0px;
+    margin: auto;
+
+    
+
+
+}
+.box-4{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color:purple;
+    margin: 50px;
+    top: 0px;
+    right: 0px;
+}
+.box-5{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    margin: 100px;
+    top: 0px;
+    right: 0px;
+
+}
+.box-6{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color:yellow;
+    margin: 150px;
+    top: 0px;
+    right: 0px;
+
+}
+.box-7{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color:aqua;
+    margin: 200px;
+    top: 0px;
+    right: 0px;
+
+}
+.box-8{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color:blue;
+    margin: 250px;
+    top: 0px;
+    right: 0px;
+
+}
+.box-9{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color:brown;
+    margin: 300px;
+    top: 0px;
+    right: 0px;
+
+}
+.box-10{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 350px;
+    top: 0px;
+    right: 0px;
+
+}
+.box-11{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    margin: 400px;
+    top: 0px;
+    right: 0px;
+    
+
+
+}
+.box-12{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: slateblue;
+    margin: 450px;
+    top: 0px;
+    right: 0px;
+    
+
+
+}
+.box-13{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color:lavenderblush;
+    margin: 500px;
+    top: 0px;
+    right: 0px;
+    
+
+
+}
+.box-14{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: forestgreen;
+    margin:50px;
+    top: 0px;
+    left: 0px;
+
+
+}
+.box-15{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    margin: 100px;
+    top: 0px;
+    left: 0px;
+    
+
+
+}
+.box-16{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rosybrown;
+    margin: 150px;
+    top: 0px;
+    left: 0px;
+    
+
+
+}
+.box-17{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: darkred;
+    margin: 200px;
+    top: 0px;
+    left: 0px;
+    
+
+
+}
+.box-18{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: navy;
+    margin: 250px;
+    top: 0px;
+    left: 0px;
+    
+
+
+}
+.box-19{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    margin: 300px;
+    top: 0px;
+    left: 0px;
+    
+
+
+}
+.box-20{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    margin: 350px;
+    top: 0px;
+    left: 0px;
+
+}
+.box-20{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    margin: 350px;
+    top: 0px;
+    left: 0px;
+
+}
+.box-21{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color:lightcoral;
+    margin: 400px;
+    top: 0px;
+    left: 0px;
+
+}
+.box-22{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    margin: 450px;
+    top: 0px;
+    left: 0px;
+
+}
+.box-23{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    margin: 500px;
+    top: 0px;
+    left: 0px;
+
+}
+.box-24{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    background-color:salmon;
+    margin: auto;
+   
+    left: 0px;
+    right: 0px;
+    bottom: 50px;
+
+}
+

@@ -1,0 +1,109 @@
+.main{
+     display: flex;
+    }
+    .mainbox{
+     border: solid black;
+     min-height: 80vh;
+     width: 100px;
+     display: flex;
+    flex-flow: column;
+     justify-content: flex-start;
+    }
+    .mainbox-1{
+     border: solid black;
+     min-height: 80vh;
+     width: 100px;
+     display: flex;
+    flex-flow: column;
+     justify-content: flex-end;
+    }
+    .mainbox-2{
+     border: solid black;
+     min-height: 80vh;
+     width: 100px;
+     display: flex;
+     flex-flow: column;
+     justify-content: center;
+    }
+    .mainbox-3{
+     border: solid black;
+    min-height: 80vh;
+     width: 100px;
+    display: flex;
+     flex-flow: column;
+     justify-content: space-between;
+    }
+    .mainbox-4{
+     border: solid black;
+     min-height: 80vh;
+     width: 100px;
+    display: flex;
+     flex-flow: column;
+     justify-content: space-around;
+    }
+    .mainbox-5{
+    border: solid black;
+     min-height: 80vh;
+     width: 100px;
+     display: flex;
+     flex-flow: column;
+     justify-content: space-around;
+    }
+    .mainbox-6{
+     border: solid black;
+    min-height: 80vh;
+    width: 100px;
+    display: flex;
+    flex-flow: column;
+     justify-content: flex-start;
+    }
+    .mainbox-7{
+    border: solid black;
+    min-height: 80vh;
+     width: 100px;
+    display: flex;
+     flex-flow: column;
+     justify-content: space-evenly;
+    }
+    .box-1{
+ height: 50px;
+ width: 70px;
+     text-align: center;
+     background-color: aquamarine;
+    }
+    .box-2{
+     height: 80px;
+     width: 50px;
+     text-align: center;
+     background-color: aqua;
+    }
+    .box-3{
+     height: 100px;
+    width: 80px;
+    text-align: center;
+     background-color: aquamarine;
+    }
+    .box-4{
+     height: 40px;
+     width: 40px;
+    text-align: center;
+    background-color: aqua;
+    }
+    .box-5{
+     height: 100px;
+     width: 40px;
+    text-align: center;
+     background-color: aquamarine;
+    }
+    .box-6{
+     height: 80px;
+     width: 30px;
+     text-align: center;
+     background-color: aqua;
+    }
+    .box-7{
+    height: 50px;
+     width: 40px;
+     text-align: center;
+     background-color: aquamarine;
+    }
