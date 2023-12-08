@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <!--ratio-->
+
+    <div class="ratio ratio-16x9" style="margin-bottom: 50px;">
+        <iframe src="pexels-volkan-yılmaz-19185087 (2160p).mp4" title="" allowfullscreen></iframe>
+        <div></div>
+    </div>
+
+    <div class="ratio" style="--bs-aspect-ratio:25%  ">
+        <iframe src="pexels-volkan-yılmaz-19185087 (2160p).mp4" title="" allowfullscreen></iframe>
+        <div></div>
+    </div>
+
+    <div class="ratio" style="--bs-aspect-ratio:50%  ">
+        <iframe src="pexels-volkan-yılmaz-19185087 (2160p).mp4" title="" allowfullscreen></iframe>
+        <div></div>
+    </div>
+
+    <div class="ratio" style="--bs-aspect-ratio:100%  ">
+        <iframe src="pexels-volkan-yılmaz-19185087 (2160p).mp4" title="" allowfullscreen></iframe>
+        <div></div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!--Stacks-->
+    <!--Vertical -->
+
+    <div class="vstack gap-3" style="background-color: black;margin-bottom: 40px;">
+        <div class="p-2" style="border: 3px solid blue; background-color: blueviolet;">First item</div>
+        <div class="p-2" style="border: 3px solid blue; background-color: blueviolet;">Second item</div>
+        <div class="p-2" style="border: 3px solid blue; background-color: blueviolet;">Third item</div>
+    </div>
+
+    <!--Horizontal -->
+
+    <div class="hstack gap-3" style="background-color: black;margin-bottom: 40px; ">
+        <div class="p-2" style="border: 2px solid blue; background-color: blueviolet;">First item</div>
+        <div class="p-2" style="border: 2px solid blue; background-color: blueviolet;">Second item</div>
+        <div class="p-2" style="border: 2px solid blue; background-color: blueviolet;">Third item</div>
+    </div>
+
+    <div class="hstack gap-3" style=" background-color: black;  margin-bottom: 40px;">
+        <div class="p-2" style="border: 2px solid blue; background-color: blueviolet;">First item</div>
+        <div class="p-2 ms-auto" style="border: 2px solid blue; background-color: blueviolet;">Second item</div>
+        <div class="p-2" style="border: 2px solid blue; background-color: blueviolet;">Third item</div>
+    </div>
+
+    <div class="hstack gap-3" style=" background-color: black; margin-bottom: 40px;">
+        <div class="p-2" style="border: 2px solid blue; background-color: blueviolet;">First item</div>
+        <div class="p-2 ms-auto" style="border: 2px solid blue; background-color: blueviolet;">Second item</div>
+        <div class="vr" style="border: 2px solid blue; background-color: blueviolet;"></div>
+        <div class="p-2" style="border: 2px solid blue; background-color: blueviolet;">Third item</div>
+    </div>
+
+    <!--button-->
+
+    <div class="vstack gap-2 col-md-5  mx-auto" style="margin-bottom: 40px;">
+        <button type="button" class="btn btn-secondary">Save changes</button>
+        <button type="button" class="btn btn-outline-secondary">Cancel</button>
+    </div>
+
+
+    <div class="hstack gap-3" style="margin-bottom: 40px; background-color: black;">
+        <input class="form-control me-auto" style="border: solid blueviolet;" type="text"
+            placeholder="Add your item here..." aria-label="Add your item here...">
+        <button type="button" class="btn btn-secondary" style="border:  solid blueviolet 5px;">Submit</button>
+        <div class="vr"></div>
+        <button type="button" style=" border:  solid blueviolet 5px;" class="btn btn-outline-danger">Reset</button>
+    </div>
+
+
+    <!-- Stretched link -->
+    <div class="card" style="width: 18rem; border: 5px solid palevioletred ; margin-bottom: 40px;">
+        <img src="OIP (3).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card with stretched link</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+        </div>
+    </div>
+
+
+    <div class="d-flex position-relative" style=" border: 5px solid palevioletred ; margin-bottom: 40px;">
+        <img src="OIP (3).jpg" class="flex-shrink-0 me-3" alt="...">
+        <div>
+            <h5 class="mt-0">Custom component with stretched link</h5>
+            <p>This is some placeholder content for the custom component. It is intended to mimic what some real-world
+                content would look like, and we're using it here to give the component a bit of body and size.</p>
+            <a href="#" class="stretched-link">Go somewhere</a>
+        </div>
+    </div>
+
+
+    <div class="row g-0 bg-body-secondary position-relative"
+        style=" border: 5px solid palevioletred ; margin-bottom: 40px;">
+        <div class="col-md-6 mb-md-0 p-md-4">
+            <img src="OIP (3).jpg" class="w-100" alt="...">
+        </div>
+        <div class="col-md-6 p-4 ps-md-0">
+            <h5 class="mt-0">Columns with stretched link</h5>
+            <p>Another instance of placeholder content for this other custom component. It is intended to mimic what
+                some real-world content would look like, and we're using it here to give the component a bit of body and
+                size.</p>
+            <a href="#" class="stretched-link">Go somewhere</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem; border: 5px solid palevioletred ; margin-bottom: 40px;">
+        <img src="OIP (3).jpg " class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card with stretched links</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <p class="card-text">
+                <a href="#" class="stretched-link text-danger" style="position: relative;">Stretched link will not work
+                    here, because <code>position: relative</code> is added to the link</a>
+            </p>
+            <p class="card-text bg-body-tertiary" style="transform: rotate(0);">
+                This <a href="#" class="text-warning stretched-link">stretched link</a> will only be spread over the
+                <code>p</code>-tag, because a transform is applied to it.
+            </p>
+        </div>
+    </div>
+
+    <!-- Text truncation -->
+    <!-- Block level -->
+    <div class="row">
+        <div class="col-2 text-truncate">
+            This text is quite long, and will be truncated once displayed.
+        </div>
+    </div>
+
+    <!-- Inline level -->
+    <span class="d-inline-block text-truncate" style="max-width: 150px;">
+        This text is quite long, and will be truncated once displayed.
+    </span>
+
+    <div class="row">
+        <div class=" col-4 text-truncate">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolorum eveniet praesentium aspernatur, natus eius officia incidunt, ea sed dolorem ab sapiente a voluptate distinctio nulla obcaecati ipsam accusamus? Voluptatem!
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootsp.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
