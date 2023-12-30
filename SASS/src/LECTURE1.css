@@ -1,0 +1,88 @@
+.class {
+  display: flex;
+}
+
+.class-1 {
+  height: 500px;
+  width: 300px;
+  color: black;
+  background-color: white;
+  border: 3px solid black;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.class-1 img {
+  height: 80px;
+  width: 80px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.class-1 h1 {
+  margin-left: 50px;
+}
+
+.class-1 button {
+  height: 50px;
+  width: 250px;
+  background-color: black;
+  color: white;
+  margin-left: 20px;
+}
+
+.class-2 {
+  height: 500px;
+  width: 300px;
+  color: white;
+  background-color: red;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.class-2 img {
+  height: 80px;
+  width: 80px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.class-2 h1 {
+  margin-left: 50px;
+}
+
+.class-2 button {
+  height: 50px;
+  width: 250px;
+  background-color: white;
+  color: red;
+  margin-left: 20px;
+}
+
+.class-3 {
+  height: 500px;
+  width: 300px;
+  color: black;
+  background-color: white;
+  border: 3px solid black;
+  font-size: 20px;
+}
+
+.class-3 img {
+  height: 80px;
+  width: 80px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.class-3 h1 {
+  margin-left: 50px;
+}
+
+.class-3 button {
+  height: 50px;
+  width: 250px;
+  background-color: black;
+  color: white;
+  margin-left: 20px;
+}/*# sourceMappingURL=LECTURE1.css.map */
