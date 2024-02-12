@@ -1,0 +1,72 @@
+body{
+    background-color: purple;
+}
+
+.counter-card {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.count-numbers {
+    animation: count-numbers 10s  10s linear infinite forwards;
+    background-color:aliceblue;
+    counter-reset: count 0;
+}
+
+.count-numbers::before {
+    color: #000;
+    content: counter(count);
+    font-size: 100px;
+}
+
+@keyframes count-numbers {
+    0% {
+      counter-increment: count 0;
+    }
+
+    10% {
+      counter-increment: count 1;
+    }
+
+    20% {
+      counter-increment: count 2;
+    }
+
+    30% {
+      counter-increment: count 3;
+    }
+
+    40% {
+      counter-increment: count 4;
+    }
+
+    50% {
+      counter-increment: count 5;
+    }
+
+    60% {
+      counter-increment: count 6;
+    }
+
+    70% {
+      counter-increment: count 7;
+    }
+
+    80% {
+      counter-increment: count 8;
+    }
+
+    90% {
+      counter-increment: count 9;
+    }
+
+    100% {
+      counter-increment: count 10;
+    }
+}

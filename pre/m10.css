@@ -1,0 +1,23 @@
+.pagination{
+    display: inline-block;
+    margin-top:100px;
+    margin-left:100px;
+}
+
+.pagination a{
+    color: black;
+    float: left;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size:20px;
+   border: 1px solid blue;
+   border-radius: 50px;
+   margin: 5px;
+}
+
+.pagination a:hover {
+    background-color: purple;
+    color: white;
+    border-radius: 50px;
+
+  }
