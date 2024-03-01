@@ -1,0 +1,104 @@
+/*font-size*/
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav li {
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.text1 {
+  height: 200px;
+  width: 200px;
+}
+
+.text3 {
+  text-align: center;
+}
+
+.button1 {
+  padding: 10px;
+}
+
+.page {
+  position: relative;
+  color: white;
+}
+
+.page1 {
+  position: absolute;
+  top: -200px;
+  right: -550px;
+}
+
+.pag-1 {
+  display: flex;
+  position: absolute;
+  top: -165px;
+  right: -550px;
+}
+
+.section-2 {
+  background-image: url("../images/background/spaeker-background.jpg");
+  height: 100vh;
+}
+
+.container-1 {
+  height: 300px;
+  width: 1350px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+.imagee {
+  height: 200px;
+  border-radius: 100%;
+}
+
+em {
+  color: red;
+}
+
+.s-1 {
+  display: block;
+}
+
+.button-1 {
+  background-color: rgb(244, 115, 28);
+  border: 0;
+  color: white;
+  padding: 10px;
+}
+
+.button-2 {
+  padding: 10px;
+}
+
+.textt-2 {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.t1 {
+  color: white;
+}
+
+.t2 {
+  color: rgb(244, 115, 28);
+}/*# sourceMappingURL=taskk2.css.map */

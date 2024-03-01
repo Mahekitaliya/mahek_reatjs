@@ -1,0 +1,91 @@
+@import '../sass/variable/variable';
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: $flex;
+    justify-content: $justify-b;
+
+    ul{
+        display: $flex;
+        gap: 20px;
+    }
+    li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: $textcolor-2;
+    }
+}
+.text1{
+    height: $h-2;
+    width: $w-2;
+}
+.text3{
+    text-align: $text-align;
+}
+.button1{
+    padding: $p2;
+}
+
+.page{
+    position: relative;
+    color: $textcolor-1;
+}
+.page1{
+    position: absolute;
+    top:-200px;
+    right: -550px;
+}
+.pag-1{
+    display: $flex;
+    position: absolute;
+    top: -165px;
+    right: -550px;
+}
+.section-2{
+    background-image: url('../images/background/spaeker-background.jpg');
+    height:100vh;
+}
+.container-1{
+    height: $h-3;
+    width: $w-17;
+    background-color: $bg-2;
+    display: $flex;
+    justify-content: $justify-c;
+    justify-content: $justify-e;
+    padding: $p3;
+}
+.imagee{
+    height: $h-2;
+    border-radius: $border-100;
+}
+em{
+    color:$textcolor-4 ;
+}
+.s-1{
+    display: block;
+}
+.button-1{
+    background-color: rgb(244, 115, 28);
+    border: 0;
+    color: $textcolor-1;
+    padding: $p2;
+}
+.button-2{
+    padding: $p2;
+}
+.textt-2{
+    display: $flex;
+    justify-content: $justify-c;
+    gap: 5px;
+}
+.t1{
+    color: $textcolor-1;
+}
+.t2{
+    color: rgb(244, 115, 28);
+}

@@ -1,0 +1,47 @@
+@import '../variable/variable.scss';
+
+// body{
+//     background-image: url('../SassProject/images/logo.png');
+// }
+nav{
+    display: $flex;
+    justify-content: $justify-b;
+
+    ul{
+        display: $flex;
+        gap: 20px;
+    }
+    li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: $textcolor-2;
+    }
+}
+.text1{
+    height: $h-2;
+    width: $w-2;
+}
+.text3{
+    text-align: $text-align;
+}
+.button1{
+    padding: $p2;
+}
+.page{
+    position: relative;
+    color: $textcolor-1;
+}
+.page1{
+    position: absolute;
+    top:-200px;
+    right: -550px;
+}
+.pag-1{
+    display: $flex;
+    position: absolute;
+    top: -165px;
+    right: -550px;
+}
+

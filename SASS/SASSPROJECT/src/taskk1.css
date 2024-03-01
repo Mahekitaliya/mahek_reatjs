@@ -1,0 +1,47 @@
+/*font-size*/
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav li {
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.text1 {
+  height: 200px;
+  width: 200px;
+}
+
+.text3 {
+  text-align: center;
+}
+
+.button1 {
+  padding: 10px;
+}
+
+.page {
+  position: relative;
+  color: white;
+}
+
+.page1 {
+  position: absolute;
+  top: -200px;
+  right: -550px;
+}
+
+.pag-1 {
+  display: flex;
+  position: absolute;
+  top: -165px;
+  right: -550px;
+}/*# sourceMappingURL=taskk1.css.map */
