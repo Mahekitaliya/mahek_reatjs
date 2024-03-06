@@ -1,3 +1,75 @@
 
+@media(max-width:1400px){
+    .mobile-menu{
+        display: none;
+    }
+} 
+ 
 
 
+@media (max-width: 992px){
+.mobile-menu{
+    display: inline-block;
+}
+.layout-container{
+    display: none;
+}
+}
+
+@media(max-width:768px){
+    .box1{
+        display: block !important;
+    }
+    .demo1{
+        width: auto !important;
+    }
+    .demo2{
+        width: auto !important;
+        margin-top:20px;
+    }
+    .pra{
+        display: block !important;
+    }
+    .box2-box{
+        width: auto !important;
+        margin-top:20px;
+    }
+    .box2-box .img-1{
+        height: 300px;
+        width: auto !important;
+    }
+    .card-con .img-2{
+        height: 300px;
+        width: auto !important;
+    }
+    .boxpr3{
+        width: auto !important;
+        margin-top: 20px;
+    }
+    .boxt3{
+        width: auto !important;
+        margin-top: 20px !important;
+    }
+    .img-3{
+        width: 600px !important;
+    }
+    .box4{
+        width: auto !important;
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .box5{
+        width: auto !important;
+        margin-top: 20px;
+        padding-top: 10px;
+        display: block !important;
+    }
+    .box6{
+        width: auto !important;
+        margin-top: 20px;
+    }
+    .box6 table tr{
+        width: auto !important;
+        margin-top: 20px;
+    }
+} 
